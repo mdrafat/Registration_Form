@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="header">★Learning-point★</h1>
+
+    <h2 class="header2">Create Your Account</h2>
+
+<form id="main">
+
+    <span style=" font-size:20px">Type Your Username </span> <br>
+    <input style=" border: 1px solid black;
+    border-radius: 5px;  outline: none; font-size: 15px; width: 500px; height:30px;" type="text" placeholder="Example: rafat/rafat123"> <br> <br>
+
+    <span style=" font-size: 20px;">Type Your Full Name</span> <br>
+    <input style=" border: 1px solid black; border-radius: 5px;  outline:none; width: 500px; height:30px; font-size: 15px;" style="font-size: 15px;" type="text" placeholder="Example: Md Rafat"> <br> <br>
+
+    <!-- <span style="font-size: 20px;">Last Name </span> <br>
+    <input style="outline:none; width: 500px; height:30px; font-size: 15px;" type="text" placeholder="Example: Rafat"> <br> <br> -->
+
+    <span style=" font-size:20px""> Type Your Email</span> <br>
+    <input style=" border: 1px solid black;
+    border-radius: 5px; outline: none;width: 500px; height: 30px;; font-size:15px"type="email" placeholder="Example: mdrafatofficial@gmail.com"> <br> <br>
+
+    <span style=" color:red; font-size:20px;">Password must be 6 digits or higher*</span> <br>
+    <input style=" border: 1px solid black;
+    border-radius: 5px;  outline: none; width: 500px; height:30px; font-size: 15px;" type="password" placeholder="Password"> <br> <br>
+
+    <span style="font-size: 20px;">Password Again<span style="color: red;">*</span></span> <br> 
+    <input style=" border: 1px solid black;
+    border-radius: 5px;  outline: none; width: 500px; height:30px; font-size: 15px;" type="password" placeholder="Confirm Password"> <br> <br>
+
+    <span style=" outline: none; font-size: 20px;">Select Your Gender</span> <br>
+
+    <input type="radio" id="male"  name="gender" value="male"> Male 
+   
+    <input type="radio" id="female"  name="gender" value="female">  Female 
+
+    <input type="radio" name="gender" value="other"> Other
+   
+    <!-- <select style=" border: 1px solid black;
+    border-radius: 5px; outline: none;font-size: 15px; width: 500px; height: 35px;">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+    </select> <br> <br> -->
+
+    <div>
+        <input class="chkbox" type="checkbox" >
+        <b style=" font-size: 20px; color:#009A88;">Will You Add Number? Only super admin can show this.(optional)</b>
+    </div>
+
+    <div class="rafat">
+        <input style=" border: 1px solid black;
+        border-radius: 5px; font-size: 15px; width: 500px; height: 30px; outline: none;" type="number" placeholder=" Type Your Phone Number">
+    </div>
+
+
+    
+    <input class="reset" type="reset" value="Reset All">
+
+    <button class="submit">Submit</button>
+   
+</form>
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    text-align: center;
+}
+.header {
+    text-align: center;
+    background-color: #009888;
+    color: white;
+    font-size: 45px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.header2{
+    background-color: #009888;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.rafat{
+    display: none;
+}
+.submit{
+    font-size: 25px;
+    background-color: #009888;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    float: right;
+    margin-right: 400px;
+}
+.reset{
+    font-size: 25px;
+    background-color: #009888;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    float: left;
+    margin-left: 415px;
+}
